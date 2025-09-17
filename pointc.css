@@ -1,0 +1,133 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* agrego color al fondo para que no se vea tan plano*/
+/* editado despues de terminar el trabajo */
+body {
+  background-color: rgba(149, 60, 60, 0.286);
+  text-align: center;
+}
+
+.card-group {  
+  width: 80vw;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  display: inline-block;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  background: url(https://png.pngtree.com/thumb_back/fw800/background/20230419/pngtree-old-brick-wall-wall-background-image_2414003.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 35px;
+}
+
+div {
+  display: inline-block;
+  background-color: rgb(134, 169, 215);
+  border: 3px solid black;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 8px;
+  width: 150px;
+  text-align: center;
+  min-height: 200px;
+  vertical-align: top;
+}
+
+div h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  color: rgba(33, 33, 133, 0.626);
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+div p {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem; 
+  line-height: 1.5rem; 
+}
+
+.card1 {
+  background-color: rgb(96, 163, 251);
+}
+.card2 {
+  background-color: rgb(251, 96, 96);
+}
+.card3 {
+  background-color: rgb(96, 251, 96);
+}
+.card4 {
+  background-color: rgb(251, 247, 96);
+}
+.card5 {
+  background-color: rgb(251, 96, 251);
+}
+/* Gradiente lineal */
+.card6 {
+  background: linear-gradient(to right, #ff7e5f, #fc0509);
+}
+/* Gradiente radial */
+.card7 {
+  background: radial-gradient(circle, #c2c2c2, #565656);
+}
+
+.card1 p {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: rgba(3, 3, 40, 0.626);
+  margin-top: 30px;
+}
+
+.card-group > div {
+  font-size: 1rem;
+  margin: 1em; 
+  padding: 0.75em 1em;
+  min-width: 180px;
+  text-align: center;
+  vertical-align: top;
+  min-height: 220px;
+}
+
+.card8 {
+  font-size: 2rem;
+  margin: 2em;
+  padding: 3em 1em;
+}
+
+/* imagen */
+.card9 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card10 img {
+  width: 100%;     
+  height: auto;
+/* Se acomoda sin recortar*/
+  object-fit: cover;  
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
