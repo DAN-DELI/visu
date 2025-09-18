@@ -4,8 +4,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  background-image: url(galeria/planeta.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -14,33 +14,36 @@ body {
       rgba(102, 39, 228, 0.51) 0%,
       rgba(255, 17, 17, 0.181) 100%
     ),
-    url(galeria/planeta.png);
+    url(fondo\,planet.jpg);
 }
-.contendor {
+
+.contenedor {
   width: 90%;
   max-width: 800px;
   height: auto;
   margin: 20px auto;
   background-color: #4e4d4d;
+  border-radius: 5px;
 }
-main.contendor > h1 {
+
+main.contenedor > h1 {
   text-align: center;
   color: #fff;
   font-size: 3rem;
   margin-bottom: 30px;
 }
 
-main.contendor div {
+main.contenedor div {
   background-color: #fff;
   display: inline-block;
-  margin: 6px;
   border-radius: 12px;
   text-align: center;
   font-size: 14px;
+  margin: 12px;
   box-shadow: 0px 0px 2px rgb(0, 0, 0, 0.5);
 }
 
-main.contendor div img {
+main.contenedor div img {
   height: 180px;
   width: 180px;
   object-fit: contain;
@@ -55,4 +58,10 @@ div h1 {
   font-size: 21px;
   color: #4e4d4d;
   text-shadow: 0px 1px 2px rgba(39, 39, 39, 0.5);
+}
+
+main.contenedor div div{
+  width: 231px;
+  object-fit: contain;
+  height: 328px;
 }
