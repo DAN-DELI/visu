@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* Queria dejar el fondo de goku pero prefiero hacer el trabajo como me lo piden 
 body {
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,14 +15,20 @@ body {
       rgba(255, 17, 17, 0.181) 100%
     ),
     url(fts/fondo\,planet.jpg);
+} */
+
+body {
+  background-color: rgb(237, 237, 237);
 }
 
 /* Contenedor principal */
 .contenedor {
   width: 90%;
-  max-width: 800px;
+  width: 997px;
   margin: 0 auto;
-  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: transparent;
   border-radius: 5px;
   padding: 20px;
 }
@@ -38,15 +45,15 @@ main.contenedor > h1 {
 main.contenedor > div > div {
   display: inline-block;
   width: 226px;
-  height: 300px;
+  height: 284px;
   background-color: #fff;
-  border-radius: 12px;
+  border-radius: 5px;
   text-align: center;
   font-size: 14px;
-  margin: 12px;
+  margin: 5px;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
   vertical-align: top;
-  padding: 10px;
+  padding: 5px;
   box-sizing: border-box;
 }
 
@@ -62,11 +69,10 @@ main.contenedor div img {
 
 /* Título del personaje */
 main.contenedor div h1 {
-  margin: 0 10px;
   font-size: 21px;
   color: #4e4d4d;
   text-shadow: 0px 1px 2px rgba(39, 39, 39, 0.5);
   text-align: center;
-  padding-top: 10px;
+  padding-top: 36px;
   margin: 0 10px;
 }
