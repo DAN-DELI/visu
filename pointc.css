@@ -8,7 +8,8 @@
 /* agrego color al fondo para que no se vea tan plano*/
 /* editado despues de terminar el trabajo */
 body {
-  background-color: rgba(149, 60, 60, 0.286);
+  /* background-color: rgba(149, 60, 60, 0.286); */
+  background-color: rgba(0, 0, 0, 0.541);
   text-align: center;
 }
 

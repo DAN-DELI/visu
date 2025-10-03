@@ -14,7 +14,7 @@ body {
       rgba(102, 39, 228, 0.51) 0%,
       rgba(255, 17, 17, 0.181) 100%
     ),
-    url(fondo\,planet.jpg);
+    url(fts/fondo\,planet.jpg);
 }
 
 .contenedor {
@@ -43,6 +43,7 @@ main.contenedor div {
   box-shadow: 0px 0px 2px rgb(0, 0, 0, 0.5);
 }
 
+/* Imagen de los div */
 main.contenedor div img {
   height: 180px;
   width: 180px;
